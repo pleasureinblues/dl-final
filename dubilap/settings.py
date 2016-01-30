@@ -73,9 +73,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'dubailap.urls'
+ROOT_URLCONF = 'dubilap.urls'
 
-WSGI_APPLICATION = 'dubailap.wsgi.application'
+WSGI_APPLICATION = 'dubilap.wsgi.application'
 
 
 

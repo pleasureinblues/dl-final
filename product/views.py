@@ -41,13 +41,13 @@ def mail_customer_contact(name, email, subject,message,send_a_copy):
     if send_a_copy:
         send_mail(subject,
                   message,
-                  'enquriy.dubailap@gmail.com',
+                  'enquriy.dubilap@gmail.com',
                   ['pleasureinblues@gmail.com', email],
                   fail_silently=False)
     else:
         send_mail(subject,
           message,
-          'enquriy.dubailap@gmail.com',
+          'enquriy.dubilap@gmail.com',
           ['pleasureinblues@gmail.com'],
           fail_silently=False)
 
@@ -149,7 +149,7 @@ def mail_customer_enquriy(form_data_dict):
 
     send_mail(formatted_subject,
               formatted_message,
-              'enquriy.dubailap@gmail.com',
+              'enquriy.dubilap@gmail.com',
               ['pleasureinblues@gmail.com'],
               fail_silently=False)
 
@@ -162,7 +162,7 @@ def thank_u_customer(form_data_dict):
 
     send_mail(subject,
               formatted_message,
-              'enquriy.dubailap@gmail.com',
+              'enquriy.dubilap@gmail.com',
               [email],
               fail_silently=False)
 
