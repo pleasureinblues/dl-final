@@ -2,3 +2,4 @@ venv
 .idea/
 *.pyc
 *~
+local_setting.py
